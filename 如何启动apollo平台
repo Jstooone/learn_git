@@ -1,0 +1,24 @@
+1、ctrl+alt+t  打开终端
+2、cd ~/apollo
+3、拉取镜像  :     bash docker/scripts/dev_start.sh (每次都要拉取镜像，我们电脑里的apollo镜像，用-c拉取不成功。)
+4、进入docker:     bash docker/scripts/dev_into.sh
+5、编译：          bash apollo.sh build（非必须，有更新到时候编译）
+6、启动Dreamview： bash scripts/bootstrap.sh
+7、已成功启动Dreamview ： 端口http://localhost:8888
+8、播放demo：      rosbag play demo_1.5.bag --loop
+
+cyber_recorder play -f data/bag/demo_3.5.record -l
+
+注意：正常退出不关闭容器，请按Ctrl+P+Q进行退出容器；退出且关闭容器：exit
+ubuntu用户名：bistumct   密码：520mctlab
+
+
+127.0.0.1       localhost
+127.0.1.1       jstone-LenY70
+140.82.113.3    github.com
+199.232.5.194   github.global.ssl.fastly.net
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrqc8sicF8fo1+NAbWJd7mzZcyuf2mkmsg3HDQAB7YUfRHJH0TpX3WipN5OFJ+INNPFujbrg9oqNd2QAVHrZx/otZ2p9zvSAYETobforL8+QdWt1EHW7vMeLdD/ZOWkWgt3AKNiWOVTsAN3sYqBiLjg5vygwRuHXuaH51sP31lPWPZIsg5jV7zwWJm6ZWVRuhk9ihP6Hgvm8GGRiiHie/ss+L2ra1DMV564jT4rNEcZcKDdihD5f59WTV8rINQGLU6dqiBNZ5cNtEwRA3SYZ0Cb1G/stMYIOprq/XyqLRdBsFlkQ+j4/nkmGOWRWIydRI2MbhMZTO1bNDEvFgjRfy7 zhjinshi66@163.com
+
